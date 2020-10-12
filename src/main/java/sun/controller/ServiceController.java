@@ -31,7 +31,6 @@ public class ServiceController {
             e.printStackTrace();
         }
 
-        /////
         CommonUtils.printDataJason(response, restfulResult);
     }
 
