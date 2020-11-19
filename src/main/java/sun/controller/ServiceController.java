@@ -37,6 +37,7 @@ public class ServiceController {
     @RequestMapping(value = "rest")
     public String rest(@RequestBody ServiceInfo serviceInfo){
 
+        //add test1
         return "Service1:Welcome " + serviceInfo.getName() + " !";
     }
 }
