@@ -38,7 +38,6 @@ public class ServiceController {
     public String rest(@RequestBody ServiceInfo serviceInfo){
 
         //add test1
-        //add test2
         return "Service1:Welcome " + serviceInfo.getName() + " !";
     }
 }
