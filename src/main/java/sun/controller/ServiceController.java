@@ -4,8 +4,8 @@ package sun.controller;
  * Created by panchong on 2020/9/30.
  */
 
-import common.entity.RestfulResult;
-import common.utils.CommonUtils;
+import sun.common.entity.RestfulResult;
+import sun.common.utils.CommonUtils;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
